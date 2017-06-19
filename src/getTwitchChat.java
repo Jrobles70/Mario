@@ -18,14 +18,20 @@ public class getTwitchChat extends PircBot  {
 	public void onMessage(String channel, String sender, String login, String hostname, String message) {
 		
 		//prog.switchFocus(robot1);
+<<<<<<< HEAD
 		//this.sendMessage("#anton_zedlavski", "Shut your dirty mouth " + sender);
+=======
+>>>>>>> Remove comments
 
 		if(message.equals("stop")){
 			this.sendMessage("#yung_jrobes", "Disconnecting");
 			this.disconnect();
 		}
 		if(message.equals("help")){
+<<<<<<< HEAD
 			//this.sendMessage("#yung_jrobes", "Wow, " + sender + " yous a stupid bitch");
+=======
+>>>>>>> Remove comments
 			this.sendMessage("#yung_jrobes", "Type jump to jump and type right to go right. Thats all weve got right now. Cause were in alpha");
 
 		}
